@@ -7,6 +7,8 @@ gem 'rails', '3.0.1'
 
 gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 
+gem 'gravatar_image_tag', '1.0.0.pre2'
+
 group :development do
       gem 'rspec-rails', '2.0.1'
 	  gem 'annotate', '2.4.0'
@@ -18,6 +20,7 @@ group :test do
       gem 'autotest'
       gem 'autotest-growl'
       gem 'autotest-fsevent'
+	  gem 'factory_girl_rails', '1.0'
 end
 
 # Use unicorn as the web server
